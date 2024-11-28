@@ -45,8 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
-
-  // Helper function to manage alerts
   function setupAlertHandlers(showAlertBtnId, alertId, backdropId) {
     const showAlertBtn = document.getElementById(showAlertBtnId);
     const alertElement = document.getElementById(alertId);
