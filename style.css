@@ -1,0 +1,445 @@
+body.home, body.about, body.products{
+    font-family: "Parkinsans", sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+/*NAVBAR*/
+    nav .bg-body-tertiary {
+        background-color: #ffffff34; 
+    }
+
+    .navbar-brand img{
+        max-height: 50px;
+    }
+
+    .navbar-brand span{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(235, 82, 90);
+        font-family: "Sour Gummy", sans-serif;
+        margin-left: 3em;
+    }
+
+    nav ul li a{
+        font-size: 22px;
+        margin:auto 10px;
+    }
+
+    nav ul li a:hover, nav ul li a:active {
+        font-weight: 600;
+        color:rgb(235, 102, 82) !important;
+        text-decoration: underline;
+    }
+
+    #navbarOffcanvasLg{
+        background-color: rgb(255, 197, 200);
+    }
+
+    .navbar-toggler{
+        margin-right: 2em;
+    }
+/*END NAVBAR*/
+
+main {
+    padding: 20px;
+}
+
+body.home, body.login{
+    background-color: rgb(163, 74, 79);
+    margin-top: 1em;
+}
+
+/*ABOUT PAGE*/
+body.about {
+    margin-top: 5em;
+}
+
+main.about {
+    padding: 2em 0;
+}
+
+main.about img {
+    border-radius: 3px; 
+    max-width: 80%; 
+    padding: 1em;
+}
+
+main.about img{
+    box-shadow: 3px 3px 5px rgba(163, 74, 78, 0.393);
+}
+
+main.about .about-heading {
+    color: rgb(163, 74, 79);
+    font-weight: 700;
+    text-align: center; 
+    margin-bottom: 1em;
+}
+
+main.about .about-text {
+    text-align: justify;
+    font-size: 1rem; 
+    line-height: 1.5;
+}
+
+footer{
+    background-color: rgb(163, 74, 79);
+    color:rgb(163, 74, 79)
+}
+
+@media (max-width: 768px) {
+    main.about .about-heading {
+        font-size: 1.8rem; 
+    }
+    main.about .about-text {
+        font-size: 0.9rem; 
+    }
+    main.about img {
+        max-width: 90%; 
+    }
+
+    .wrapper .col-md-6 img {
+        max-width: 70%;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 576px) {
+    main.about .about-text {
+        font-size: 0.8rem;
+    }
+    main.about img {
+        max-width: 100%;
+    }
+}
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+#hero h1 span{
+    text-transform: lowercase;
+    font-weight: 500;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 50px;
+}
+
+section h5{
+    color: rgb(242, 194, 186);
+    font-weight: 700;
+}
+
+section p{
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+
+/*HOMEPAGE*/
+#hero .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col{
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+#hero .img{
+    max-width: 150% !important;
+    width: 150%;
+}
+    /*BUTTON*/
+    .buttons {
+        display: inline;
+    }
+    
+    .buttons a:link {
+        text-decoration: none;
+        color: rgb(235, 82, 90) !important; 
+    }
+    
+    .action_btn {
+        display: inline;
+    }
+    
+    button {
+        cursor: pointer;
+        margin-bottom: 1rem;
+    }
+
+    #hero .btn-primary {
+        background-color: rgb(255, 135, 141) !important;
+        border: none !important;
+        font-weight: 600;
+        color: white !important;
+    }
+
+    #hero .btn-primary:hover {
+        background-color: rgba(209, 115, 119, 0.751) !important;
+        transform: scale(1.02);
+    }
+
+    .btn-outline-secondary {
+        border: rgb(255, 228, 229) solid 1px !important;
+        color: rgb(255, 228, 229) !important;
+        font-weight: 600;
+    }
+    
+    .btn-outline-secondary a:link {
+        color: rgb(235, 82, 90) !important;
+        text-decoration: none; 
+    }
+    
+    .btn-outline-secondary:hover {
+        background-color: #fbe4f3 !important;
+        color: rgb(235, 82, 90) !important;
+        transform: scale(1.02);
+    }
+    
+    /*END BUTTON*/
+/*END HOMEPAGE*/
+
+/*PRODUCTS*/
+html.products{
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
+}
+main.products{
+    padding: 2em;
+    margin-top: 2em;
+}
+
+
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .card img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .about-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .carousel img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+  .cards .card{
+  border: 0;
+  text-align: center;
+  margin-bottom: 2em;
+  }  
+
+  .products #card1 .btn-primary{
+    background-color: rgb(163, 74, 79) !important ;
+    border: none;
+    font-weight: 600;
+  }
+
+  .products #card2 .btn-primary{
+    background-color:rgb(194, 90, 95) !important ;
+    border: none;
+    font-weight: 600;
+  }
+
+  .products #card3 .btn-primary{
+    background-color:rgb(245, 153, 157) !important ;
+    border: none;
+    font-weight: 600;
+  }
+
+  .products #card1 .card-title{
+    color: rgb(163, 74, 79);
+    font-weight: 700;
+  }
+
+  .products #card2 .card-title{
+    color: rgb(194, 90, 95);
+    font-weight: 700;
+  }
+
+  .products #card3 .card-title{
+    color: rgb(245, 153, 157);
+    font-weight: 700;
+  }
+
+  .carousel-inner{
+    border-radius: 5px;
+  }
+
+  #custom-alert-1, #custom-alert-2, #custom-alert-3  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    max-width: 80%;
+    width: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    }
+
+    #alert-backdrop-1, #alert-backdrop-2, #alert-backdrop-3 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1040;
+        display: none;
+    }
+
+/*END PRODUCTS*/
+
+/*LOGIN*/
+
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: rgb(235, 82, 90);
+
+    }
+
+/* Container styling */
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Image styling */
+.wrapper .col-md-6 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Right section */
+.login-section {
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+    .wrapper .input-box {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+    }
+
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none; 
+        outline: none;
+        border: 2px solid rgba(235, 82, 90, 0.139);
+        border-radius: 40px;
+        font-size: 16px;
+        color: rgb(161, 43, 49);
+        padding: 20px 45px 20px 20px;
+    }
+
+    .input-box input::placeholder {
+        color: rgba(104, 104, 104, 0.553);
+    }
+
+    .input-box i {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+    }
+
+    .wrapper .btn {
+        width: 100%;
+        height: 45px;
+        background:rgb(235, 82, 90);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        cursor: pointer;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .bx{
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: rgb(235, 82, 90);
+        }
+      
+
+    /*PASSWORD*/
+    .toggle-btn {
+        right: 10px;
+        top: 50%;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: rgb(235, 82, 90); 
+      }
+      .toggle-btn:hover {
+        color: #000; 
+      }
+      .icon {
+        transition: transform 0.2s; 
+      }
+      /*END PASSWORD*/
+/*END LOGIN*/
